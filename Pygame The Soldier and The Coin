@@ -6,13 +6,13 @@ import random
 import math
  
 image_resources = "C:/Users/64066/Desktop/Pygame_App/app_resources/image_resources/"
-sound_resources = "C:/Users/user/Desktop/Pygame App/app_resources/sound_resources/"
+sound_resources = "C:/Users/64066/Desktop/Pygame App/app_resources/sound_resources/"
  
-width,height = 400,400
+width,height = 1280,600
 size = (width,height)
  
 clock = pygame.time.Clock()
-FPS = 115
+FPS = 3000
  
 coin_offset = 60
 points = -1
@@ -66,7 +66,7 @@ pygame.init()
  
 screen = pygame.display.set_mode(size)
 pygame.display.set_caption("PyGame App")
-background = GetSource().background("bg_solid_black_square.jpg")
+background = GetSource().background("20413-thewallpaper.jpg")
 player = GetSource().player("ball_blue.png").convert_alpha()
 player_dimension = player.get_width()
  
