@@ -5,8 +5,8 @@ import time
 import random
 import math
  
-image_resources = "C:/Users/64066/Desktop/Pygame_App/app_resources/image_resources/"
-sound_resources = "C:/Users/64066/Desktop/Pygame App/app_resources/sound_resources/"
+image_resources = "app_resources/image_resources/"
+sound_resources = "app_resources/sound_resources/"
  
 width,height = 1280,600
 size = (width,height)
